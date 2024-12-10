@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 .btn {
     font-size: 55px;
@@ -8,11 +8,11 @@
     border-radius: 10px;
 
         &--color {
-            background-color: $secondary-color;
+            background-color: variables.$secondary-color;
         }
 
         :link {
-            color: $main-color;
+            color: variables.$main-color;
         }
 
         :hover {
@@ -20,25 +20,25 @@
         }
 
         :active {
-            color: $main-color;
+            color: variables.$main-color;
         }
 
         :visited {
-            color: $main-color;
+            color: variables.$main-color;
         }
 
         &--selected {
 
             :link {
-                color: $selected-btn-color; 
+                color: variables.$selected-btn-color; 
             }
 
             :active {
-                color: $selected-btn-color;
+                color: variables.$selected-btn-color;
             }
 
             :visited {
-                color: $selected-btn-color;
+                color: variables.$selected-btn-color;
             }
         }
 

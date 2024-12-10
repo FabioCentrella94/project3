@@ -1,8 +1,8 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 .left-menu {
     flex: 1;
-    background-color: $main-color;
+    background-color: variables.$main-color;
     padding-top: 150px;
 
     &__nav {
@@ -11,7 +11,7 @@
         justify-content: space-around;
         padding: 2% 0;
         margin: -150px 0 20% 0;
-        background-color: $secondary-color;
+        background-color: variables.$secondary-color;
 
         @media only screen and (max-width: 1024px) {
            position: fixed;
@@ -23,7 +23,7 @@
             margin: 0 1%;
 
             :link {
-                color: $main-color;
+                color: variables.$main-color;
             }
 
             :hover {
@@ -31,25 +31,25 @@
             }
 
             :active {
-                color: $main-color
+                color: variables.$main-color
             }
 
             :visited {
-                color: $main-color;
+                color: variables.$main-color;
             }
 
             &--selected {
 
                 :link {
-                    color: $selected-btn-color;
+                    color: variables.$selected-btn-color;
                 }
     
                 :active {
-                    color: $selected-btn-color;
+                    color: variables.$selected-btn-color;
                 }
     
                 :visited {
-                    color: $selected-btn-color;
+                    color: variables.$selected-btn-color;
                 }
             }
         }
@@ -61,8 +61,8 @@
     }
 
     &__info-heading {
-        background-color: $secondary-color;
-        color: $main-color;
+        background-color: variables.$secondary-color;
+        color: variables.$main-color;
         padding: 5px 0px;
         margin-top: 40px;
     }
@@ -93,7 +93,7 @@
         margin: 100px 0px -25px 25px;
 
         &--name-color {
-            color: $main-color;
+            color: variables.$main-color;
         }
 
         @media only screen and (max-width: 480px) {
@@ -112,7 +112,7 @@
         margin: 20px 0 100px 26px;
 
         &--underline {
-            border-bottom: 2px solid $main-color;
+            border-bottom: 2px solid variables.$main-color;
         }
 
         @media only screen and (max-width: 480px) {
@@ -138,7 +138,7 @@
         margin: -20px 0px 25px 6%;
         
         &--color {
-            border-color: $main-color;
+            border-color: variables.$main-color;
         }
     }
 

@@ -1,13 +1,13 @@
-@import "./utils/variables";
-@import "./utils/mixins";
+@use "utils/variables";
+@use "utils/mixins";
 
-@import "./base/base";
+@use "base/base";
 
-@import "./components/buttons";
+@use "components/buttons";
 
-@import "./layouts/container";
-@import "./layouts/content";
-@import "./layouts/header";
-@import "./layouts/footer";
+@use "layouts/container";
+@use "layouts/content";
+@use "layouts/header";
+@use "layouts/footer";
 
-@import "./pages/home";
+@use "pages/home";

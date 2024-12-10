@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 .content {
     flex: 7;
@@ -24,7 +24,7 @@
             margin: -20px 0 0 0;
        
             &--color {
-                border-color: $main-color;
+                border-color: variables.$main-color;
             }
         }
     }    
@@ -83,7 +83,7 @@
         margin: 6% 0 0 0;
 
         &--color {
-            border-color: $main-color;
+            border-color: variables.$main-color;
         }
     }
 }

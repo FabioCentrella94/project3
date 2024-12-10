@@ -1,5 +1,5 @@
 {
-  "name": "project-3",
+  "name": "project3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,9 +13,20 @@
   },
   "author": "",
   "license": "ISC",
-  "browserslist": "last 4 versions", 
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/FabioCentrella94/FabioCentrella94.github.io/issues"
   },
-  "homepage": "https://github.com/FabioCentrella94/FabioCentrella94.github.io#readme"
+  "homepage": "https://github.com/FabioCentrella94/FabioCentrella94.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.82.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "sass-migrator": "^2.2.1"
+  }
 }

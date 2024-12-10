@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 .header {
     display: flex;
@@ -8,7 +8,7 @@
     padding: 1% 0 0 0;
 
     &--color {
-        background-color: $main-color;
+        background-color: variables.$main-color;
     }   
     
     @media only screen and (max-width: 1024px) {
